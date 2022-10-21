@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DA71B2A8-0E9D-3F60-7080-F4C1B55299CB" name="hasv1">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-04-02 10:20:33 UTC</createdTime>
+<ownerDesignName>GOOD BUY STORE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Product_id" id="8D2B3E45-2670-1AD7-22D7-77E819F8F313">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-04-02 10:20:33 UTC</createdTime>
+<ownerDesignName>GOOD BUY STORE</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>205F42A3-3355-D8FC-37CE-56B9CB6777A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8171DDE7-F8AE-2877-0F72-78B4A94E0952" referredColumn="377493E6-2B89-C010-DBAD-CBEAC29614AD"/>
+</associations>
+</Column>
+<Column name="Product_Suplier_Attribute_1" id="6990BE9E-2080-9A5F-9AE5-04F8C08B0A7C">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-04-02 10:20:33 UTC</createdTime>
+<ownerDesignName>GOOD BUY STORE</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>205F42A3-3355-D8FC-37CE-56B9CB6777A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8171DDE7-F8AE-2877-0F72-78B4A94E0952" referredColumn="E85D2D7B-B2F7-DA83-7B29-F80B29E19EC5"/>
+</associations>
+</Column>
+<Column name="spare_id" id="9D8EE625-1F03-20C1-E128-BC1E499EA33A">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-04-02 10:20:33 UTC</createdTime>
+<ownerDesignName>GOOD BUY STORE</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>205F42A3-3355-D8FC-37CE-56B9CB6777A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1EBCACF8-7A5F-4580-8024-1B8BC758166B" referredColumn="DFCAF571-31DD-A691-FC1D-984A475BCB32"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A5F16358-81E0-EFCB-FB02-83BF874F88AE" name="hasv1_PK">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-04-02 10:20:33 UTC</createdTime>
+<ownerDesignName>GOOD BUY STORE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D2B3E45-2670-1AD7-22D7-77E819F8F313"/>
+<colUsage columnID="6990BE9E-2080-9A5F-9AE5-04F8C08B0A7C"/>
+<colUsage columnID="9D8EE625-1F03-20C1-E128-BC1E499EA33A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="577F6A40-DFB0-E5BF-C6BF-64EA77DBE356" name="hasv1_Product_FK">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-04-02 10:20:33 UTC</createdTime>
+<generatorID>5559E0E1-9CB0-596B-30AF-B03DF6CBD9C4</generatorID>
+<ownerDesignName>GOOD BUY STORE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D2B3E45-2670-1AD7-22D7-77E819F8F313"/>
+<colUsage columnID="6990BE9E-2080-9A5F-9AE5-04F8C08B0A7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E9DEAC3-5D1F-BCA2-A12B-43234A0FCC49" name="hasv1_spare_FK">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-04-02 10:20:33 UTC</createdTime>
+<generatorID>5559E0E1-9CB0-596B-30AF-B03DF6CBD9C4</generatorID>
+<ownerDesignName>GOOD BUY STORE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D8EE625-1F03-20C1-E128-BC1E499EA33A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

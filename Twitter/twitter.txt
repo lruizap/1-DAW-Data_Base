@@ -1,0 +1,29 @@
+post 280caracteres
+
+usuarios (reflexiva (seguidos y ser seguidos)(N:M))--> (id, nombre_usuario(@nombre), email, fecha_creacion) 
+
+usuario_sigue_usuario --> (îd, id_usuario_sigue*, id_usuario_seguido*)
+
+
+usuario tienen perfil
+
+
+perfil --> (id, id_usuario*, avatar(url), alias(varchar), fotografia_fondo(url))
+
+
+info_adicional(id, id_usuario*, fecha_nac, biografia(varchar,280), ubicacion(varchar), web(url))
+
+
+usuarios realizan publicaciones
+
+
+publicaciones (reflexiva) --> (id, id_usuario* ,contenido(varchar,280) ,fecha_publicacion, multimedia(bool), id_respuesta*)
+
+favoritos --> (id,id_publicacion*, id_usuario_fav*)
+retuit --> (id,id_publicacion*, id_usuario_ret*)
+
+
+publicaciones pueden tener Contenido_multimedia
+
+
+multimedia (fuerte débil con publicaciones) --> (id, id_publicación*, url(contenido multimedia))

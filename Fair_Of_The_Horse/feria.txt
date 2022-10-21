@@ -1,0 +1,33 @@
+Quiere almacenar información relativa a una edición de la Feria del Caballo de Jerez.
+Requisitos
+- El espacio de la feria se compone de varios paseos o calles. Quieres saber el nombre de
+cada uno (por ejemplo, Paseo de las Palmeras, Calle La Paquera de Jerez, ...)
+- Las casetas están ubicadas en una de estas calles. Aunque algunos pueden estar ubicados en una esquina
+sólo interesa la calle donde la caseta tiene más metros de frente. Cada stand es
+identificado por un número consecutivo (por ejemplo, del 001 al 213 en la última edición).
+- Para cada stand, también queremos saber el nombre del propietario y el número de plaza
+metros que ocupa.
+- Algunas cabinas tienen miembros, de los cuales desea saber su nombre completo (apellido y nombre
+nombre), su DNI, número de teléfono y el número de pases de invitados que tienen. No podemos
+excluir que una misma persona pueda ser miembro de más de un stand.
+- Para cada stand, desea saber el número de miembros que tiene.
+- Por último, y a efectos estadísticos, queremos saber el precio en euros de las bebidas típicas
+de la feria en diferentes stands (por ejemplo, una olla de rebujito, tortilla de patata,...).
+- Se sabe que, internamente, existe una especie de “hermandad” entre cabinas que facilita
+su promoción, por lo que queremos saber qué stands están hermanados entre sí. Una cabina puede
+estar hermanada con ninguna o con muchas cabinas.
+Ejercicio:
+1. Modelo E/R
+2. Crear las tablas (DDL)
+3. Crear algunas funciones y vistas (PL/SQL)
+1. Crea una función que reciba como parámetro el número de una cabina y devuelva el
+número de miembros de la misma
+2. Cree un procedimiento que muestre una lista de todas las cabinas indicando los siguientes campos: nombre de
+el stand, calle donde se encuentra y el número de stand (id). Recibirá como parámetro
+un carácter para indicar cómo ordenar la lista: alfabéticamente ('a') o por número de stand ('n')
+3. Cree una vista que muestre la descripción del premio (premio), el nombre del stand
+(caseta) y su ubicación, indicando calle y número separados por coma (ubicación)
+4. Crear una vista de precios que contenga las diferentes bebidas (id) y el precio promedio de esa
+bebida en los diferentes stands de la feria (promedio).
+Nota: No hay una palabra específica para 'caseta' en inglés. Usamos "cabina o soporte" aquí pero
+el contexto es diferente como se puede suponer.

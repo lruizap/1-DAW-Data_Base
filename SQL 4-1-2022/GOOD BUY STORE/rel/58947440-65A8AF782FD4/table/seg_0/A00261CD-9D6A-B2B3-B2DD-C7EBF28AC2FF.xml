@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A00261CD-9D6A-B2B3-B2DD-C7EBF28AC2FF" name="Product">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-04-02 10:20:33 UTC</createdTime>
+<generatorID>203FFD9F-C90C-9FDE-20AC-359B7E859355</generatorID>
+<ownerDesignName>GOOD BUY STORE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="377493E6-2B89-C010-DBAD-CBEAC29614AD">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-04-02 10:20:33 UTC</createdTime>
+<generatorID>1C9A7EAF-6953-E160-0CE5-FAF3120B5686</generatorID>
+<ownerDesignName>GOOD BUY STORE</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>205F42A3-3355-D8FC-37CE-56B9CB6777A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="brand" id="90B4187F-EE8D-33F6-35CB-C09F78D75492">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-04-02 10:20:33 UTC</createdTime>
+<generatorID>41BE8F48-73A3-7691-6A74-0A2AFD434E87</generatorID>
+<ownerDesignName>GOOD BUY STORE</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>FD04F4F0-0677-D1A3-9E23-FC25080D7650</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type" id="510258ED-E49B-C425-D456-07BA29E81C1F">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-04-02 10:20:33 UTC</createdTime>
+<generatorID>E6138B40-E1E3-4FBD-9345-0E14A1B94962</generatorID>
+<ownerDesignName>GOOD BUY STORE</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>093C9B29-6C07-8974-5D4F-F76AA16D64E5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="model" id="68DAA184-F9FF-A762-40F7-C980DB738395">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-04-02 10:20:33 UTC</createdTime>
+<generatorID>B472A5A5-CE7B-349C-1EB5-14E4636B37A3</generatorID>
+<ownerDesignName>GOOD BUY STORE</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D06FA540-A11E-1BEC-D836-CC4A84F4C4FA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="purchase_price" id="13A838C9-2221-6A18-9433-A3FBC358D53B">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-04-02 10:20:33 UTC</createdTime>
+<generatorID>EABFFFE0-40EE-4BDC-2FDC-21F4915B39FD</generatorID>
+<ownerDesignName>GOOD BUY STORE</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>824ACA2A-CA2E-A3D3-EF9E-6261E87691C2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sale_price" id="516B77C7-C585-3DD2-95AE-BEB3F4170554">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-04-02 10:20:33 UTC</createdTime>
+<generatorID>F84A3156-E5B3-1E4C-6A66-3194B7897F1F</generatorID>
+<ownerDesignName>GOOD BUY STORE</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>824ACA2A-CA2E-A3D3-EF9E-6261E87691C2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="units" id="9B956353-E25F-C7B2-126C-079CBE336EDB">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-04-02 10:20:33 UTC</createdTime>
+<generatorID>15729097-A630-A88E-AF30-5C028DF33A8C</generatorID>
+<ownerDesignName>GOOD BUY STORE</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>8E192849-7040-5EF3-329B-DB1C272EAD3C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Suplier_Attribute_1" id="E85D2D7B-B2F7-DA83-7B29-F80B29E19EC5">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-04-02 10:20:33 UTC</createdTime>
+<generatorID>2502C3B6-83C6-14D1-5582-96E5150B874E</generatorID>
+<ownerDesignName>GOOD BUY STORE</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>205F42A3-3355-D8FC-37CE-56B9CB6777A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7CB23DCD-7336-25EF-8A14-C0E7BA1E8C96" referredColumn="B7CC5F85-D5A3-F5A6-E43D-24E140E9EDD8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6287FB38-B72B-B7F5-EFB6-8B9A528BCB90" name="Product_PK">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-04-02 10:20:33 UTC</createdTime>
+<generatorID>94480392-270F-CF73-E70E-20EC71C554B4</generatorID>
+<ownerDesignName>GOOD BUY STORE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="377493E6-2B89-C010-DBAD-CBEAC29614AD"/>
+<colUsage columnID="E85D2D7B-B2F7-DA83-7B29-F80B29E19EC5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF11B5FE-9F8F-B940-B4A8-EFFC0FF3D6EB" name="Product_Suplier_FK">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-04-02 10:20:33 UTC</createdTime>
+<generatorID>DA77CCB6-6041-01E2-0DFB-B6C95F28302C</generatorID>
+<ownerDesignName>GOOD BUY STORE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E85D2D7B-B2F7-DA83-7B29-F80B29E19EC5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

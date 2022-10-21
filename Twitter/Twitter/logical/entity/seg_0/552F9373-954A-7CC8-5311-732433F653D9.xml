@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="552F9373-954A-7CC8-5311-732433F653D9" name="info_adicional">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-22 09:55:58 UTC</createdTime>
+<ownerDesignName>Twitter</ownerDesignName>
+<engineerTo>
+<item key="11708E68-0BAB-3197-50A7-962984ED3E11" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_usuario" id="13CEB04B-6C85-C921-9E63-3D18D64FD9F4">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-22 09:59:52 UTC</createdTime>
+<generatorID>01392EF5-DE19-7898-303E-1750D3E5BF0E</generatorID>
+<ownerDesignName>Twitter</ownerDesignName>
+<engineerTo>
+<item key="11708E68-0BAB-3197-50A7-962984ED3E11" value="true"/>
+</engineerTo>
+<referedAttribute>F926E129-E22C-1C34-21A8-351E65C8E007</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>205F42A3-3355-D8FC-37CE-56B9CB6777A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_info" id="A867B36F-58E1-3A0E-C5B6-387A7AF71290">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-22 09:56:08 UTC</createdTime>
+<ownerDesignName>Twitter</ownerDesignName>
+<engineerTo>
+<item key="11708E68-0BAB-3197-50A7-962984ED3E11" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>205F42A3-3355-D8FC-37CE-56B9CB6777A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_nacimiento" id="CF65C673-0E62-2A22-37AC-292EEF502E21">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-22 09:56:17 UTC</createdTime>
+<ownerDesignName>Twitter</ownerDesignName>
+<engineerTo>
+<item key="11708E68-0BAB-3197-50A7-962984ED3E11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="biografia" id="23041563-7030-1A18-0CF5-F23A2AEEDE2D">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-22 09:56:28 UTC</createdTime>
+<ownerDesignName>Twitter</ownerDesignName>
+<engineerTo>
+<item key="11708E68-0BAB-3197-50A7-962984ED3E11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>280</dataTypeSize>
+<domain>B23711C5-F8CE-F541-202B-40F05B86FCE7</domain>
+<ownDataTypeParameters>280,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ubicacion" id="426D82C7-D91C-BFEF-8B5E-8C042A375EEB">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-22 09:56:51 UTC</createdTime>
+<ownerDesignName>Twitter</ownerDesignName>
+<engineerTo>
+<item key="11708E68-0BAB-3197-50A7-962984ED3E11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="web" id="C53BFDF4-4F65-7070-E3F7-3D8DFC6CB47D">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-22 09:57:06 UTC</createdTime>
+<ownerDesignName>Twitter</ownerDesignName>
+<engineerTo>
+<item key="11708E68-0BAB-3197-50A7-962984ED3E11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3562AF7C-FECF-0C56-2F3D-667B067E93D7" name="info_adicional PK">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-22 09:56:13 UTC</createdTime>
+<ownerDesignName>Twitter</ownerDesignName>
+<engineerTo>
+<item key="11708E68-0BAB-3197-50A7-962984ED3E11" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A867B36F-58E1-3A0E-C5B6-387A7AF71290</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

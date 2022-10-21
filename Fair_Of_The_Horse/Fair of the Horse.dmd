@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Fair of the Horse" id="8A011681-B6AE-8517-00FF-7544D8489CF2" version="3.5">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 16:15:00 UTC</createdTime>
+<ownerDesignName>Fair of the Horse</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>8A011681-B6AE-8517-00FF-7544D8489CF2</designId>
+</OSDM_Design>

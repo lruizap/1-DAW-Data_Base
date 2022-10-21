@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="5C521B15-96BE-9825-DD86-4E18872EFBF4" mainViewID="F8812C3F-C1A7-1A78-1D61-034E008318AA">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-22 09:09:27 UTC</createdTime>
+<ownerDesignName>Twitter</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

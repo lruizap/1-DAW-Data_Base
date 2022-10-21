@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="sigue" directorySegmentName="seg_0" id="3F44D95F-27F9-F3A6-704C-D76AE34D58C5">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-22 10:15:24 UTC</createdTime>
+<ownerDesignName>Twitter</ownerDesignName>
+<engineerTo>
+<item key="11708E68-0BAB-3197-50A7-962984ED3E11" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B7AAA155-2E82-C5D4-8CAF-0189EC728111</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B7AAA155-2E82-C5D4-8CAF-0189EC728111</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

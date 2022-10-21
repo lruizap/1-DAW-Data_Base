@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="633985C3-64FF-8346-BAA2-C8E447FE42E9" name="members">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 17:13:30 UTC</createdTime>
+<ownerDesignName>Fair of the Horse</ownerDesignName>
+<engineerTo>
+<item key="8F558A89-3885-121B-CCD6-F99044F1F86B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="F8573BF5-3C3B-A2E9-9C88-851EB34F9331">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 17:13:37 UTC</createdTime>
+<ownerDesignName>Fair of the Horse</ownerDesignName>
+<engineerTo>
+<item key="8F558A89-3885-121B-CCD6-F99044F1F86B" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>205F42A3-3355-D8FC-37CE-56B9CB6777A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="157E9690-4DE6-D4C3-3D2B-D521ED213BE4">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 17:13:37 UTC</createdTime>
+<ownerDesignName>Fair of the Horse</ownerDesignName>
+<engineerTo>
+<item key="8F558A89-3885-121B-CCD6-F99044F1F86B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7001DA57-F017-92F1-BFCA-9D48D7C3A7B7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Surname" id="180D1510-3075-F0EA-E994-8EDACA28BC96">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 17:13:38 UTC</createdTime>
+<ownerDesignName>Fair of the Horse</ownerDesignName>
+<engineerTo>
+<item key="8F558A89-3885-121B-CCD6-F99044F1F86B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7001DA57-F017-92F1-BFCA-9D48D7C3A7B7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telephone" id="1DA32F6C-73E1-44E5-7DD6-8361E07E039B">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 17:13:40 UTC</createdTime>
+<ownerDesignName>Fair of the Horse</ownerDesignName>
+<engineerTo>
+<item key="8F558A89-3885-121B-CCD6-F99044F1F86B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E8D2465B-A458-8637-CF32-FD80F139B951</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Number_Passes" id="9FB18089-E3B7-DAC8-200F-1F158224A532">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 17:13:41 UTC</createdTime>
+<ownerDesignName>Fair of the Horse</ownerDesignName>
+<engineerTo>
+<item key="8F558A89-3885-121B-CCD6-F99044F1F86B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E43D4041-A705-BDE1-B4D0-FEA43932D88B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F1E7F9D5-7C4F-7A22-8E0C-1F941F4A55D9" name="members PK">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 17:13:47 UTC</createdTime>
+<ownerDesignName>Fair of the Horse</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8F558A89-3885-121B-CCD6-F99044F1F86B" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F8573BF5-3C3B-A2E9-9C88-851EB34F9331</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

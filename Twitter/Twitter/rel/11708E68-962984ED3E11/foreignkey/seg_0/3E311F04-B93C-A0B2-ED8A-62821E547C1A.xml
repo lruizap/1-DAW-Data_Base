@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3E311F04-B93C-A0B2-ED8A-62821E547C1A" containerWithKeyObject="89FF5AF8-4CC3-CAF9-AB59-AA01542ABE1E" localFKIndex="A4ABFBA7-F6C0-C741-9B0F-1187BE7E39D8" name="compartir_usuario_FK">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-22 10:20:45 UTC</createdTime>
+<generatorID>93FE7F39-2E02-5F08-5195-A07A86E4F516</generatorID>
+<ownerDesignName>Twitter</ownerDesignName>
+<referredTableLongName>usuario</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4E666B46-898A-65EB-265D-35B098652CCE</referredTableID>
+<keyObject>20CDD194-2B2E-836F-8182-19E8619E50BF</keyObject>
+<referredKeyID>20CDD194-2B2E-836F-8182-19E8619E50BF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_usuario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

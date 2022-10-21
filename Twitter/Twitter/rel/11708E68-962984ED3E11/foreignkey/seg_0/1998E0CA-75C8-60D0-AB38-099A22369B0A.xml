@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1998E0CA-75C8-60D0-AB38-099A22369B0A" containerWithKeyObject="89FF5AF8-4CC3-CAF9-AB59-AA01542ABE1E" localFKIndex="EAA27B37-BEB8-0954-6AF9-A445EF8C721B" name="compartir_Publicación_FK">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-22 10:20:45 UTC</createdTime>
+<generatorID>93FE7F39-2E02-5F08-5195-A07A86E4F516</generatorID>
+<ownerDesignName>Twitter</ownerDesignName>
+<referredTableLongName>Publicación</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F29B3202-08C6-F27E-E738-3A9F32C95020</referredTableID>
+<keyObject>255BEF23-B664-6976-DA26-160E39CC4891</keyObject>
+<referredKeyID>255BEF23-B664-6976-DA26-160E39CC4891</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_publicacion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

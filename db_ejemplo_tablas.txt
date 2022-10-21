@@ -1,0 +1,29 @@
+CREATE TABLE Cliente 
+(
+  "id" INT NOT NULL,
+  nombre VARCHAR2(50) NOT NULL,
+  nif CHAR(9) NOT NULL,
+  fecha_alta DATE,
+  poblacion VARCHAR2(40) DEFAULT 'Jerez',
+  email VARCHAR2(255),
+  PRIMARY KEY ("id")
+);
+
+CREATE TABLE Articulo
+(
+  codigo VARCHAR2(30) NOT NULL,
+  nombre VARCHAR2(30) NOT NULL,
+  descripcion VARCHAR2(280),
+  precio NUMBER(6,2) NOT NULL,
+  PRIMARY KEY (codigo)
+);
+
+CREATE TABLE Factura
+(
+  numero INT NOT NULL,
+  id_cliente INT NOT NULL,
+  forma_pago CHAR(1) DEFAULT 'C',
+  PRIMARY KEY (numero),
+  FOREIGN KEY (id_cliente) REFERENCES Cliente("id"),
+  CHECK (forma_pago IN ('C', 'T'))
+);

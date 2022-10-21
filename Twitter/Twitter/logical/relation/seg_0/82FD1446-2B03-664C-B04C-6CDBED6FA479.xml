@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="tiene" directorySegmentName="seg_0" id="82FD1446-2B03-664C-B04C-6CDBED6FA479">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-22 09:54:10 UTC</createdTime>
+<ownerDesignName>Twitter</ownerDesignName>
+<engineerTo>
+<item key="11708E68-0BAB-3197-50A7-962984ED3E11" value="true"/>
+</engineerTo>
+<sourcePk>048B66E1-A6B2-B492-4602-024D7E7B54E0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B7AAA155-2E82-C5D4-8CAF-0189EC728111</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>A0D45180-5365-1DE0-4819-9BB1BCD0858E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

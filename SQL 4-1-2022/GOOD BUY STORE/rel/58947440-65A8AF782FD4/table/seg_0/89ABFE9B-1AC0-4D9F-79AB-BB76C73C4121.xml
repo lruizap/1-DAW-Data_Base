@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="89ABFE9B-1AC0-4D9F-79AB-BB76C73C4121" name="address">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-04-02 10:20:33 UTC</createdTime>
+<generatorID>23EAB6D6-B748-3831-A330-74C640EB3E58</generatorID>
+<ownerDesignName>GOOD BUY STORE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUSTOMER_ID" id="80CEFD3F-3A7D-F8E5-4805-221DA890AFFD">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-04-02 10:20:33 UTC</createdTime>
+<generatorID>802B7211-9502-9227-F057-52A17BF4C2C4</generatorID>
+<ownerDesignName>GOOD BUY STORE</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>205F42A3-3355-D8FC-37CE-56B9CB6777A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A5299C02-C19D-ECE9-EC96-74AEB82D98F8" referredColumn="83BF5309-294C-9ADB-6171-3C3B04F03F83"/>
+</associations>
+</Column>
+<Column name="city" id="5767A086-3291-3D1C-E9F3-FBA6EC160075">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-04-02 10:20:33 UTC</createdTime>
+<generatorID>CBB09478-0DAF-C13F-26D0-97412B5E119F</generatorID>
+<ownerDesignName>GOOD BUY STORE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="postal_code" id="066A4363-1003-5916-51F4-C2C5ABECADA9">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-04-02 10:20:33 UTC</createdTime>
+<generatorID>B4548330-9466-9232-BAD4-50E5F491F946</generatorID>
+<ownerDesignName>GOOD BUY STORE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D082D20E-3DB6-22F1-5746-C18D73CFA146" name="address_PK">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-04-02 10:20:33 UTC</createdTime>
+<generatorID>915C0662-7034-9D15-7EAE-58CD23D8E48C</generatorID>
+<ownerDesignName>GOOD BUY STORE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80CEFD3F-3A7D-F8E5-4805-221DA890AFFD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="92B24CED-05B1-7DFA-454A-5CE29AD83C5F" name="address_CUSTOMER_FK">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-04-02 10:20:33 UTC</createdTime>
+<generatorID>238FA76A-311D-5518-93AE-D6FC19DA0A11</generatorID>
+<ownerDesignName>GOOD BUY STORE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80CEFD3F-3A7D-F8E5-4805-221DA890AFFD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

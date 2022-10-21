@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="866E55DB-2DA9-D542-6DF7-5858E21993CA" name="members">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 17:17:57 UTC</createdTime>
+<generatorID>633985C3-64FF-8346-BAA2-C8E447FE42E9</generatorID>
+<ownerDesignName>Fair of the Horse</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="C495A048-1794-8562-1C63-57C2C60C4F8D">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 17:17:57 UTC</createdTime>
+<generatorID>F8573BF5-3C3B-A2E9-9C88-851EB34F9331</generatorID>
+<ownerDesignName>Fair of the Horse</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>205F42A3-3355-D8FC-37CE-56B9CB6777A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="D4C7CF22-3EC3-B4A7-6414-3E86A72427C2">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 17:17:57 UTC</createdTime>
+<generatorID>157E9690-4DE6-D4C3-3D2B-D521ED213BE4</generatorID>
+<ownerDesignName>Fair of the Horse</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7001DA57-F017-92F1-BFCA-9D48D7C3A7B7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Surname" id="D3FE574C-AB13-D74E-81EC-381AB4C74B1A">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 17:17:57 UTC</createdTime>
+<generatorID>180D1510-3075-F0EA-E994-8EDACA28BC96</generatorID>
+<ownerDesignName>Fair of the Horse</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7001DA57-F017-92F1-BFCA-9D48D7C3A7B7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telephone" id="5BD171D8-4AC4-6D51-95B9-9E201FCDF385">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 17:17:57 UTC</createdTime>
+<generatorID>1DA32F6C-73E1-44E5-7DD6-8361E07E039B</generatorID>
+<ownerDesignName>Fair of the Horse</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E8D2465B-A458-8637-CF32-FD80F139B951</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Number_Passes" id="3FADC462-86C2-AC88-086A-4529D8CF884A">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 17:17:57 UTC</createdTime>
+<generatorID>9FB18089-E3B7-DAC8-200F-1F158224A532</generatorID>
+<ownerDesignName>Fair of the Horse</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E43D4041-A705-BDE1-B4D0-FEA43932D88B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="777224D7-B5E4-06DA-699B-F4FFA643B3C9" name="members_PK">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 17:17:57 UTC</createdTime>
+<generatorID>F1E7F9D5-7C4F-7A22-8E0C-1F941F4A55D9</generatorID>
+<ownerDesignName>Fair of the Horse</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C495A048-1794-8562-1C63-57C2C60C4F8D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0CC19C71-0F11-47CF-1AE7-C3B3C66B9C35" name="membership">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 17:17:57 UTC</createdTime>
+<ownerDesignName>Fair of the Horse</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="members_ID" id="F57B7307-F9EC-1F50-96C2-DDDD1A534179">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 17:17:57 UTC</createdTime>
+<ownerDesignName>Fair of the Horse</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>205F42A3-3355-D8FC-37CE-56B9CB6777A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="11829F1D-CE18-3149-07BF-54F1119E4B63" referredColumn="C495A048-1794-8562-1C63-57C2C60C4F8D"/>
+</associations>
+</Column>
+<Column name="booths_ID" id="DAE931F5-529B-29C3-9469-4172E8EF1C92">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 17:17:57 UTC</createdTime>
+<ownerDesignName>Fair of the Horse</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>205F42A3-3355-D8FC-37CE-56B9CB6777A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2FC6B87C-2D42-2106-6B0A-C7AE6C5A9379" referredColumn="A8FA2BE4-3119-C701-467A-2C8E57DB56D8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1CD9CDD6-EDA7-C0BC-CF17-EE2C38EE65AF" name="membership_PK">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 17:17:57 UTC</createdTime>
+<ownerDesignName>Fair of the Horse</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F57B7307-F9EC-1F50-96C2-DDDD1A534179"/>
+<colUsage columnID="DAE931F5-529B-29C3-9469-4172E8EF1C92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F7905F8-F9FB-FA84-41C7-39C0B1810C1A" name="membership_members_FK">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 17:17:57 UTC</createdTime>
+<generatorID>0665016B-1802-629F-6DE3-AC6B04509C93</generatorID>
+<ownerDesignName>Fair of the Horse</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F57B7307-F9EC-1F50-96C2-DDDD1A534179"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="68CE7911-9053-0019-7A0C-EEE8E3FBFD02" name="membership_booths_FK">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 17:17:57 UTC</createdTime>
+<generatorID>0665016B-1802-629F-6DE3-AC6B04509C93</generatorID>
+<ownerDesignName>Fair of the Horse</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DAE931F5-529B-29C3-9469-4172E8EF1C92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

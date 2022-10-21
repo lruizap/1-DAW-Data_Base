@@ -1,0 +1,142 @@
+-- create database salvadora;
+
+-- create table and insert value
+
+use salvadora;
+
+-- Table structure for table `cliente`
+
+-- DROP TABLE IF EXISTS `cliente`;
+-- CREATE TABLE `cliente` (
+--  `CI` int(15) NOT NULL,
+--  `nombre` varchar(15) DEFAULT NULL,
+--  `apellido` varchar(20) DEFAULT NULL,
+--  `direccion` tinytext,
+--  `telefono` int(10) DEFAULT NULL,
+--  PRIMARY KEY (`CI`)
+-- ) ENGINE=InnoDB DEFAULT CHARSET=latin1; 
+
+-- Dumping data for table `cliente`
+
+-- LOCK TABLES `cliente` WRITE;
+-- INSERT INTO `cliente` VALUES (1830258,'SOLEDAD','FLORES','CALLE 4 z olivos',6654812),(1834505,'DELICIA','CORTEZ','CALLE 56 z green',7254872),(1880804,'RAMIRO','BENITEZ','CALLE 2 z golveta',2579457),(1892870,'LAURA','CRUZ','plaza avaroa',1235798),(2233046,'MERCEDES','MIRANDA','CALLE f z leon',7112081),(5008608,'EDWIN','RAMIREZ','CALLE 12 z fuel',7888021),(5543170,'EDDIE','PERALTA','CALLE 67 z golketa',7985412),(5785085,'JAIME','CRUZ','CALLE 80 z miraflores',7548352),(5798046,'WILDER','ARMELLA','CALLE R z pinos',7885428),(7193156,'LUCERO','RAMIEZZ','CALLE 5 z golbert',12374387);
+-- UNLOCK TABLES;
+
+-- select y from 
+
+-- show tables;
+-- select * from salvadora
+-- select * from salvadora.cliente;
+-- select nombre, apellido from cliente;
+
+-- where
+
+-- select * from cliente where nombre = "jaime";
+-- select * from producto where marca = "continental" and precio > 1000; 
+
+-- where like 
+
+-- select nombre, apellido from cliente where apellido like "c%"; -- Esto nos indica después del valor anterior
+-- select nombre, apellido from cliente where apellido like "%c"; -- Esto nos indica que debe finalizar con el valor
+-- select CI, nombre from cliente where nombre like "j%";
+-- select * from proveedor where id_proveedor like "%0%" -- El valor esta en medio de 2
+-- select * from salvadora.cliente where CI not like "18%"; -- Todos los valores que no comiencen por 18
+
+-- select * from producto where cod_producto like "10_"; -- Funciona igual que el % pero solo puede ser 1 carácter, es decir si pongo 10_ , el _ puede ser cualquier caracter pero solo 1
+-- _ se usa exáctamente igual que los %
+
+-- between min and max
+
+-- select nombre, marca, color, precio from producto where precio between 1500 and 3000;
+
+-- in () --> como el between pero más precioso, es decir, solo elige la info de los valores seleccionados
+
+-- select * from producto where precio in (1800,2300,3000);
+-- select nombre,marca,color from producto where color in("gris", "rojo", "verde");
+
+-- funciones agregadas (sum, count, min, max)
+
+-- select sum(precio) from producto; -- Suma 
+-- select count(id_proveedor) from proveedor; -- Cuenta los (proveedores) de la tabla proveedor
+
+-- select min(precio) from producto; -- mínimo
+-- select max(precio) from producto; -- máximo
+
+-- group by --> sum()
+
+-- select marca,sum(precio) from producto group by marca; -- Suma los valores de cada uno y los agrupa
+-- select marca,count(*) from producto group by marca; -- Cuenta los valores y los agrupa
+-- select marca, count(*) from producto where color = "negro" group by marca; cuenta los valores de color negro y los agurpa
+-- select color,min(precio) from producto group by color; selecciona el valor minimo de precio y lo agrupa por color
+
+-- having 
+
+-- select marca,sum(stock) from producto group by marca having sum(stock) > 30; -- se toman los valores mayores a 30 en su suma
+-- select color, count(*) from producto group by color having count(*) < 4;
+-- select color, min(precio) from producto group by color having min(precio) < 2000;
+
+-- order by 
+
+-- select * from producto where marca = "continental" order by cod_producto;
+-- select * from producto where marca = "continental" order by cod_producto asc;
+-- select * from producto where marca = "continental" order by cod_producto desc;
+-- select nombre from producto where marca = "continental" order by nombre asc;
+-- select cod_producto, nombre, marca, precio from producto where marca = "continental" order by precio desc;
+
+-- EJS
+
+-- select nombre,marca,precio from producto;
+-- select * from producto where precio between 2000 and 3000;
+-- select count(*) from producto where precio = 1250;
+-- select nombre,marca,precio from producto order by precio asc limit 1;
+-- select nombre,marca,precio from producto where precio = (select min(precio) from producto);
+-- select nombre,apellido,telefono from cliente where telefono not like "6%" and telefono not like "7%";
+
+-- Modificación y eliminación
+
+-- create table usuario (
+
+-- CI int(13),
+-- cod_producto int (13),
+-- fecha_compra date,
+-- cantidad int (15),
+-- primary key(ci)
+
+-- );
+
+-- create table producto33 (
+
+-- cod_producto int (13) primary key,
+-- nombre varchar (22),
+-- marca varchar (22),
+-- color varchar (22),
+-- modelo varchar (22),
+-- stock int (100),
+-- precio int (100)
+
+-- );
+
+-- create table servicios (
+
+-- ci int (13),
+-- cod_producto int (13),
+-- fecha_compra date,
+-- cantidad int (15),
+-- primary key (ci),
+-- foreign key (cod_producto) references producto (cod_producto)
+
+-- );
+
+-- alter table usuario rename LOS_USUARIOS;
+-- show tables;
+-- alter table LOS_USUARIOS drop cod_producto;
+-- describe LOS_USUARIOS;
+-- alter table LOS_USUARIOS add telefono int (10);
+-- alter table LOS_USUARIOS add nombre varchar(15) after ci;
+-- describe LOS_USUARIOS;
+-- alter table LOS_USUARIOS add ElNumeritoDePaco int(5) first;
+-- describe LOS_USUARIOS; 
+-- alter table LOS_USUARIOS change telefono celular int(10);
+-- describe LOS_USUARIOS;
+-- alter table LOS_USUARIOS modify cantidad int(8) not null;
+-- describe LOS_USUARIOS;

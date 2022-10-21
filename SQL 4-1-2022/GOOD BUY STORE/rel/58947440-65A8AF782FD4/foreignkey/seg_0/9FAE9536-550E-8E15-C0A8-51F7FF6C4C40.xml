@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9FAE9536-550E-8E15-C0A8-51F7FF6C4C40" containerWithKeyObject="73339802-711F-8D7F-87F8-F38DACA0D8EE" localFKIndex="D74AA080-5184-4673-D6F3-CED68875F41B" name="Purchase_saleperson_FK">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-04-02 10:20:33 UTC</createdTime>
+<generatorID>81F0F5B7-A976-EF1E-5929-6068A17E3AEF</generatorID>
+<ownerDesignName>GOOD BUY STORE</ownerDesignName>
+<referredTableLongName>saleperson</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>43D34096-5150-4E23-1175-E8A1FD7B0A60</referredTableID>
+<keyObject>0AD858F0-47C8-0C54-E0C5-F8676DE5D2D9</keyObject>
+<referredKeyID>0AD858F0-47C8-0C54-E0C5-F8676DE5D2D9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

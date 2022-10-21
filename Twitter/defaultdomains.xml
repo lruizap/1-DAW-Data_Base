@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="defaultdomains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="DPrice" id="068E262A-090B-A154-02CE-183AA11F127C">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 16:30:39 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT020</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="DID" id="205F42A3-3355-D8FC-37CE-56B9CB6777A1">
+<createdBy>Lucas</createdBy>
+<createdTime>2022-04-01 08:26:49 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="DName" id="7001DA57-F017-92F1-BFCA-9D48D7C3A7B7">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 16:24:31 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>40</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="DV280" id="B23711C5-F8CE-F541-202B-40F05B86FCE7">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-22 09:57:30 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>280</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="DSquare_Meters" id="CFBEE683-7D5E-0B63-A0B3-3134ADE1FBF8">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 16:26:04 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT020</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Unknown" id="DOM3000004">
+<createdBy>Lucas</createdBy>
+<createdTime>2022-01-17 11:13:42 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT017</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="DNumber" id="E43D4041-A705-BDE1-B4D0-FEA43932D88B">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 16:25:02 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="DTelephone" id="E8D2465B-A458-8637-CF32-FD80F139B951">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 16:29:44 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

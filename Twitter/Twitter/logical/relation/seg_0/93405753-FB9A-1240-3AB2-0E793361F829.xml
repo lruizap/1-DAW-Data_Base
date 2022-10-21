@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="respuesta" directorySegmentName="seg_0" id="93405753-FB9A-1240-3AB2-0E793361F829">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-22 10:11:04 UTC</createdTime>
+<ownerDesignName>Twitter</ownerDesignName>
+<engineerTo>
+<item key="11708E68-0BAB-3197-50A7-962984ED3E11" value="true"/>
+</engineerTo>
+<targetPk>62DF7F8F-E474-0A5A-6434-341017E14649</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CC4F5B9F-216A-DB56-0E81-6BDD078144BD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CC4F5B9F-216A-DB56-0E81-6BDD078144BD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

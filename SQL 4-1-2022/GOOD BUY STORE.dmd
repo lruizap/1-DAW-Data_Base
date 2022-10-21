@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="GOOD BUY STORE" id="37456604-8E99-CECB-A830-66BC0DB25597" version="3.5">
+<createdBy>Lucas</createdBy>
+<createdTime>2022-04-01 07:55:42 UTC</createdTime>
+<ownerDesignName>GOOD BUY STORE</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>37456604-8E99-CECB-A830-66BC0DB25597</designId>
+</OSDM_Design>

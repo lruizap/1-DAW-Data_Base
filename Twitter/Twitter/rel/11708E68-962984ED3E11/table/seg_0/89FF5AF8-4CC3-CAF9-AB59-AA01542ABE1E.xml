@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="89FF5AF8-4CC3-CAF9-AB59-AA01542ABE1E" name="compartir">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-22 10:20:45 UTC</createdTime>
+<ownerDesignName>Twitter</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="42B204E0-0D71-97D5-1F33-EE642270BD6E">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-22 10:29:36 UTC</createdTime>
+<ownerDesignName>Twitter</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>205F42A3-3355-D8FC-37CE-56B9CB6777A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usuario_id_usuario" id="49DC386D-1E79-AF29-38BA-6401EA690390">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-22 10:20:45 UTC</createdTime>
+<ownerDesignName>Twitter</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>205F42A3-3355-D8FC-37CE-56B9CB6777A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3E311F04-B93C-A0B2-ED8A-62821E547C1A" referredColumn="32DBFA34-EC36-1598-964E-A67121C19C43"/>
+</associations>
+</Column>
+<Column name="Publicación_id_publicacion" id="1E1012EE-BA6A-0788-3C11-C6AA5BBDF3AD">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-22 10:20:45 UTC</createdTime>
+<ownerDesignName>Twitter</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>205F42A3-3355-D8FC-37CE-56B9CB6777A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1998E0CA-75C8-60D0-AB38-099A22369B0A" referredColumn="DA87E471-D5B6-F8C8-F249-39C21AFAA807"/>
+</associations>
+</Column>
+<Column name="Publicación_fecha_publicacion" id="2D9C654D-728A-2DB9-F12D-FDE51779E46E">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-22 10:20:45 UTC</createdTime>
+<ownerDesignName>Twitter</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0E78865E-A968-5ED6-C370-0D9CA85938A6" name="compartir_PK">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-22 10:20:45 UTC</createdTime>
+<ownerDesignName>Twitter</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42B204E0-0D71-97D5-1F33-EE642270BD6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A4ABFBA7-F6C0-C741-9B0F-1187BE7E39D8" name="compartir_usuario_FK">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-22 10:20:45 UTC</createdTime>
+<generatorID>93FE7F39-2E02-5F08-5195-A07A86E4F516</generatorID>
+<ownerDesignName>Twitter</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49DC386D-1E79-AF29-38BA-6401EA690390"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EAA27B37-BEB8-0954-6AF9-A445EF8C721B" name="compartir_Publicación_FK">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-22 10:20:45 UTC</createdTime>
+<generatorID>93FE7F39-2E02-5F08-5195-A07A86E4F516</generatorID>
+<ownerDesignName>Twitter</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E1012EE-BA6A-0788-3C11-C6AA5BBDF3AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

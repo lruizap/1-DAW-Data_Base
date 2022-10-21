@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="defaultdomains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="DQuantity" id="0525F7C4-3A5C-36BB-5E83-4AC1E2163AEB">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-04-02 10:11:12 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="DType" id="093C9B29-6C07-8974-5D4F-F76AA16D64E5">
+<createdBy>Lucas</createdBy>
+<createdTime>2022-04-01 08:11:40 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<listOfValues>
+<valueDef value="BR" description="BROWN RANGE"/>
+<valueDef value="GR" description="GRAY RANGE"/>
+<valueDef value="PR" description="PAE RANGE"/>
+<valueDef value="WB" description="WHITE RANGE"/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="DID" id="205F42A3-3355-D8FC-37CE-56B9CB6777A1">
+<createdBy>Lucas</createdBy>
+<createdTime>2022-04-01 08:26:49 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="DCategory" id="2BEF6C12-18CD-8AA5-4DA3-8A6E29FE1FB6">
+<createdBy>Lucas</createdBy>
+<createdTime>2022-04-01 08:29:17 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<listOfValues>
+<valueDef value="BR" description="BROWN-RANGE"/>
+<valueDef value="GR" description="GRAY-RANGE"/>
+<valueDef value="PR" description="PAE-RANGE"/>
+<valueDef value="WB" description="WHITE-RANGE"/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="DPrice" id="824ACA2A-CA2E-A3D3-EF9E-6261E87691C2">
+<createdBy>Lucas</createdBy>
+<createdTime>2022-04-01 08:14:15 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<unitOfMeasure>€</unitOfMeasure>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="DUnits_Stock" id="8E192849-7040-5EF3-329B-DB1C272EAD3C">
+<createdBy>Lucas</createdBy>
+<createdTime>2022-04-01 08:15:54 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="DModel" id="D06FA540-A11E-1BEC-D836-CC4A84F4C4FA">
+<createdBy>Lucas</createdBy>
+<createdTime>2022-04-01 08:12:09 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>40</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="DSaleType" id="D902623C-5254-AD9A-706B-109BE046B8DB">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-04-02 10:13:51 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<listOfValues>
+<valueDef value="JS" description="JUNIOR SELLER"/>
+<valueDef value="SS" description="SENIOR SELLER"/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="DWeight" id="DCEE0E11-005A-7CEA-0BB7-FA64D6902B46">
+<createdBy>Lucas</createdBy>
+<createdTime>2022-04-01 08:12:23 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<defaultValue>0</defaultValue>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<unitOfMeasure>Kg</unitOfMeasure>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Unknown" id="DOM3000004">
+<createdBy>Lucas</createdBy>
+<createdTime>2022-01-17 11:13:42 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT017</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="DBrand" id="FD04F4F0-0677-D1A3-9E23-FC25080D7650">
+<createdBy>Lucas</createdBy>
+<createdTime>2022-04-01 08:07:00 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>40</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

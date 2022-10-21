@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="hasv6" directorySegmentName="seg_0" id="238FA76A-311D-5518-93AE-D6FC19DA0A11">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-04-02 10:19:03 UTC</createdTime>
+<ownerDesignName>GOOD BUY STORE</ownerDesignName>
+<engineerTo>
+<item key="58947440-4E70-5E10-63F9-65A8AF782FD4" value="true"/>
+</engineerTo>
+<sourcePk>AF7FD04E-D622-198B-1284-724F4F5CB776</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F1B67BC6-0FD3-C58B-486C-E0045952AB6B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>23EAB6D6-B748-3831-A330-74C640EB3E58</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

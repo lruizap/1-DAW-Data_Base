@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="hasv5" directorySegmentName="seg_0" id="5785F912-A4E3-678D-12AC-99632478DF5C">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-04-02 10:10:36 UTC</createdTime>
+<ownerDesignName>GOOD BUY STORE</ownerDesignName>
+<engineerTo>
+<item key="58947440-4E70-5E10-63F9-65A8AF782FD4" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>9A6F81F9-B012-9DC9-6690-767DA3D53F1E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>23D858AA-14EF-E6DC-E3C2-CC15BDF04715</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="sale_price" id="B06A5AAA-4153-045C-6D2C-2D83E4994C89">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-04-02 10:10:42 UTC</createdTime>
+<ownerDesignName>GOOD BUY STORE</ownerDesignName>
+<engineerTo>
+<item key="58947440-4E70-5E10-63F9-65A8AF782FD4" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>824ACA2A-CA2E-A3D3-EF9E-6261E87691C2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="quantity" id="F967B74A-B602-B68A-398B-AE03142E0D1E">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-04-02 10:10:42 UTC</createdTime>
+<ownerDesignName>GOOD BUY STORE</ownerDesignName>
+<engineerTo>
+<item key="58947440-4E70-5E10-63F9-65A8AF782FD4" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>0525F7C4-3A5C-36BB-5E83-4AC1E2163AEB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

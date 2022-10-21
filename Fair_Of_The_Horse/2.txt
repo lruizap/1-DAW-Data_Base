@@ -1,0 +1,30 @@
+INSERT INTO street VALUES (1, 'Lola Flores');
+INSERT INTO street VALUES (2, 'Manuel moreno');
+INSERT INTO street VALUES (2, 'Parrilla de Jerez');
+
+INSERT INTO booth VALUES (1, 'Caseta La Alegria', 100, 1);
+INSERT INTO booth VALUES (2, 'El soverano Porder', 100, 1);
+INSERT INTO booth VALUES (3, 'Real Escuela', 100, 1);
+
+INSERT INTO member VALUES (1, 'Javier', 'Montoro', '112233449');
+INSERT INTO member_of VALUES (1, 1, 5);
+
+INSERT INTO awards VALUES(1,'Concurso Casetas Jerez', 1);
+
+INSERT INTO drink VALUES(1, 'Rebujito');
+INSERT INTO drink VALUES(2, 'Fanta');
+INSERT INTO drink VALUES(3, 'Tortilla de patatas');
+INSERT INTO drink VALUES(4, 'Mojito');
+
+INSERT INTO prices VALUES(1,1, 5);
+INSERT INTO prices VALUES(2,1, 8.50);
+INSERT INTO prices VALUES(3,1, 11);
+INSERT INTO prices VALUES(1,2, 2);
+INSERT INTO prices VALUES(2,2, 3.50);
+INSERT INTO prices VALUES(3,2, 2.75);
+INSERT INTO prices VALUES(1,3, 4);
+INSERT INTO prices VALUES(2,3, 5.50);
+INSERT INTO prices VALUES(3,3, 5.75);
+INSERT INTO prices VALUES(1,4, 6);
+INSERT INTO prices VALUES(2,4, 9.20);
+INSERT INTO prices VALUES(3,4, 12);

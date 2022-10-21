@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1A783E45-3820-B119-EC80-7160EDB05E6D" name="booths">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 17:00:49 UTC</createdTime>
+<ownerDesignName>Fair of the Horse</ownerDesignName>
+<engineerTo>
+<item key="8F558A89-3885-121B-CCD6-F99044F1F86B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="D7CC0585-E512-A830-E785-5EDE24E2FBD9">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 17:01:58 UTC</createdTime>
+<ownerDesignName>Fair of the Horse</ownerDesignName>
+<engineerTo>
+<item key="8F558A89-3885-121B-CCD6-F99044F1F86B" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>205F42A3-3355-D8FC-37CE-56B9CB6777A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name_of_the_owner" id="2D191868-BC30-0237-C5EF-3ADEFD618301">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 17:02:08 UTC</createdTime>
+<ownerDesignName>Fair of the Horse</ownerDesignName>
+<engineerTo>
+<item key="8F558A89-3885-121B-CCD6-F99044F1F86B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7001DA57-F017-92F1-BFCA-9D48D7C3A7B7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Square_Meters" id="4467034B-A87A-1475-E4BA-71C07BF86819">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 17:04:24 UTC</createdTime>
+<ownerDesignName>Fair of the Horse</ownerDesignName>
+<engineerTo>
+<item key="8F558A89-3885-121B-CCD6-F99044F1F86B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<domain>CFBEE683-7D5E-0B63-A0B3-3134ADE1FBF8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Number_of_Members" id="AB1C1E5C-6A63-4C9F-2666-72B589411E1E">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 17:05:30 UTC</createdTime>
+<ownerDesignName>Fair of the Horse</ownerDesignName>
+<engineerTo>
+<item key="8F558A89-3885-121B-CCD6-F99044F1F86B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E43D4041-A705-BDE1-B4D0-FEA43932D88B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="6EA65D37-C076-B49E-E72A-BEBBC29472BC">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 17:12:48 UTC</createdTime>
+<generatorID>287A7D37-AD7C-E4E1-0872-1CFD8CD31D75</generatorID>
+<ownerDesignName>Fair of the Horse</ownerDesignName>
+<engineerTo>
+<item key="8F558A89-3885-121B-CCD6-F99044F1F86B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>D7CC0585-E512-A830-E785-5EDE24E2FBD9</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>205F42A3-3355-D8FC-37CE-56B9CB6777A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="41281893-0A0C-8D39-93D5-3F2B4BA66B2B" name="booths PK">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 17:02:05 UTC</createdTime>
+<ownerDesignName>Fair of the Horse</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8F558A89-3885-121B-CCD6-F99044F1F86B" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D7CC0585-E512-A830-E785-5EDE24E2FBD9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

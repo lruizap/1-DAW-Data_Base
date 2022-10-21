@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6066FFC7-66C4-E932-D790-CC0FC666F740" name="Perfil">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-22 10:20:45 UTC</createdTime>
+<generatorID>A0D45180-5365-1DE0-4819-9BB1BCD0858E</generatorID>
+<ownerDesignName>Twitter</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="usuario_id_usuario" id="07DCA2D6-F162-652D-973D-84ECA212270F">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-22 10:20:45 UTC</createdTime>
+<generatorID>A44F47BA-6771-623E-B9DA-D12CD538D937</generatorID>
+<ownerDesignName>Twitter</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>205F42A3-3355-D8FC-37CE-56B9CB6777A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="738FDBB9-3EE4-A23A-B2AD-528F0023FE5C" referredColumn="32DBFA34-EC36-1598-964E-A67121C19C43"/>
+</associations>
+</Column>
+<Column name="id_prefil" id="1E947C79-48ED-D0D6-2B9E-F959C24B9331">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-22 10:20:45 UTC</createdTime>
+<generatorID>F750BC84-48F0-E0C4-7D59-155475DFF79E</generatorID>
+<ownerDesignName>Twitter</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>205F42A3-3355-D8FC-37CE-56B9CB6777A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="avatar" id="CD15C4FB-0F08-D9C4-32FB-13D647990189">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-22 10:20:45 UTC</createdTime>
+<generatorID>97BCD620-F6FE-1E91-F053-81985D08ABE7</generatorID>
+<ownerDesignName>Twitter</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fondo" id="33003B8D-FE7B-9BBE-24D7-367375B092E7">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-22 10:20:45 UTC</createdTime>
+<generatorID>BBC5A736-679B-BFB7-7FFD-30679A881A4C</generatorID>
+<ownerDesignName>Twitter</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alias" id="EE4DE472-7A87-DBBA-9AB1-E09C937257BC">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-22 10:20:45 UTC</createdTime>
+<generatorID>B04C6659-B816-7FAA-FDEE-1BDBAAB270C5</generatorID>
+<ownerDesignName>Twitter</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2189A6A2-3F61-97CD-F4F2-BED18764AE67" name="Perfil_PK">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-22 10:20:45 UTC</createdTime>
+<generatorID>1541FA25-E8F7-2AA6-7CC8-3A20B8A89E50</generatorID>
+<ownerDesignName>Twitter</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E947C79-48ED-D0D6-2B9E-F959C24B9331"/>
+<colUsage columnID="07DCA2D6-F162-652D-973D-84ECA212270F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="74DBAE25-D286-31B9-F4F9-B895348D31F4" name="Perfil__IDX">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-22 10:20:45 UTC</createdTime>
+<ownerDesignName>Twitter</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>82FD1446-2B03-664C-B04C-6CDBED6FA479</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="07DCA2D6-F162-652D-973D-84ECA212270F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A8AB3F3A-16EB-9847-691F-5C873F37C7C9" name="Perfil_usuario_FK">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-22 10:20:45 UTC</createdTime>
+<generatorID>82FD1446-2B03-664C-B04C-6CDBED6FA479</generatorID>
+<ownerDesignName>Twitter</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07DCA2D6-F162-652D-973D-84ECA212270F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

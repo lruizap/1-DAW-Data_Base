@@ -1,0 +1,21 @@
+CREATE TABLE floor (
+    idfloor INTEGER NOT NULL,
+    name    VARCHAR2(20 CHAR) NOT NULL
+);
+
+ALTER TABLE floor ADD CONSTRAINT floor_pk PRIMARY KEY ( idfloor );
+
+CREATE TABLE room (
+    floor_idfloor INTEGER NOT NULL,
+    idroom        INTEGER NOT NULL,
+    beds          INTEGER NOT NULL,
+    squaremeters  NUMBER(5, 2) NOT NULL
+);
+
+ALTER TABLE room ADD CONSTRAINT room_pk PRIMARY KEY ( floor_idfloor,
+                                                      idroom );
+
+ALTER TABLE room
+    ADD CONSTRAINT room_floor_fk FOREIGN KEY ( floor_idfloor )
+        REFERENCES floor ( idfloor )
+            ON DELETE CASCADE;

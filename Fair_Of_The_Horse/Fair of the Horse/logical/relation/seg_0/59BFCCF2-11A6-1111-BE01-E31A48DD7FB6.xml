@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="it_serves" directorySegmentName="seg_0" id="59BFCCF2-11A6-1111-BE01-E31A48DD7FB6">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 17:16:53 UTC</createdTime>
+<ownerDesignName>Fair of the Horse</ownerDesignName>
+<engineerTo>
+<item key="8F558A89-3885-121B-CCD6-F99044F1F86B" value="true"/>
+</engineerTo>
+<sourcePk>41281893-0A0C-8D39-93D5-3F2B4BA66B2B</sourcePk>
+<targetPk>137DE841-490A-A0C9-0350-71CDDC2A45B4</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1A783E45-3820-B119-EC80-7160EDB05E6D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C80636E3-53AD-9190-CE8E-142F7B798598</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

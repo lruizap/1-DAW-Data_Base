@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="compartir" directorySegmentName="seg_0" id="93FE7F39-2E02-5F08-5195-A07A86E4F516">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-22 10:18:19 UTC</createdTime>
+<ownerDesignName>Twitter</ownerDesignName>
+<engineerTo>
+<item key="11708E68-0BAB-3197-50A7-962984ED3E11" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B7AAA155-2E82-C5D4-8CAF-0189EC728111</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CC4F5B9F-216A-DB56-0E81-6BDD078144BD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

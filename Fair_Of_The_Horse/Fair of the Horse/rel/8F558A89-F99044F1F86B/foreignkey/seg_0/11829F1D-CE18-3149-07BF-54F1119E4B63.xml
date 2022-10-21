@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="11829F1D-CE18-3149-07BF-54F1119E4B63" containerWithKeyObject="0CC19C71-0F11-47CF-1AE7-C3B3C66B9C35" localFKIndex="7F7905F8-F9FB-FA84-41C7-39C0B1810C1A" name="membership_members_FK">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 17:17:57 UTC</createdTime>
+<generatorID>0665016B-1802-629F-6DE3-AC6B04509C93</generatorID>
+<ownerDesignName>Fair of the Horse</ownerDesignName>
+<referredTableLongName>members</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>866E55DB-2DA9-D542-6DF7-5858E21993CA</referredTableID>
+<keyObject>777224D7-B5E4-06DA-699B-F4FFA643B3C9</keyObject>
+<referredKeyID>777224D7-B5E4-06DA-699B-F4FFA643B3C9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

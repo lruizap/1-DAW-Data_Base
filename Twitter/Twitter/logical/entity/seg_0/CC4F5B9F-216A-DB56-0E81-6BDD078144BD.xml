@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CC4F5B9F-216A-DB56-0E81-6BDD078144BD" name="Publicación">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-22 10:01:21 UTC</createdTime>
+<ownerDesignName>Twitter</ownerDesignName>
+<engineerTo>
+<item key="11708E68-0BAB-3197-50A7-962984ED3E11" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_usuario" id="B9451B0D-B36B-5CFF-334F-FD0187802722">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-22 10:09:25 UTC</createdTime>
+<generatorID>C6D71E88-A26E-7B5E-6850-5CF3F8977248</generatorID>
+<ownerDesignName>Twitter</ownerDesignName>
+<engineerTo>
+<item key="11708E68-0BAB-3197-50A7-962984ED3E11" value="true"/>
+</engineerTo>
+<referedAttribute>F926E129-E22C-1C34-21A8-351E65C8E007</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>205F42A3-3355-D8FC-37CE-56B9CB6777A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_publicacion" id="EB2E9F65-B5FB-5E85-731F-563152B96051">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-22 10:01:33 UTC</createdTime>
+<ownerDesignName>Twitter</ownerDesignName>
+<engineerTo>
+<item key="11708E68-0BAB-3197-50A7-962984ED3E11" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>205F42A3-3355-D8FC-37CE-56B9CB6777A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_publicacion1" id="73039E00-632C-759D-CD73-F22D4BFC0EC1">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-22 10:11:04 UTC</createdTime>
+<generatorID>93405753-FB9A-1240-3AB2-0E793361F829</generatorID>
+<ownerDesignName>Twitter</ownerDesignName>
+<engineerTo>
+<item key="11708E68-0BAB-3197-50A7-962984ED3E11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>EB2E9F65-B5FB-5E85-731F-563152B96051</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>205F42A3-3355-D8FC-37CE-56B9CB6777A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_publicacion" id="06C009B7-AA56-44B4-74F6-3A64D96C6CC5">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-22 10:02:03 UTC</createdTime>
+<ownerDesignName>Twitter</ownerDesignName>
+<engineerTo>
+<item key="11708E68-0BAB-3197-50A7-962984ED3E11" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contenido" id="61E60A8E-6D0B-15ED-301C-59F8C690CEC6">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-22 10:01:40 UTC</createdTime>
+<ownerDesignName>Twitter</ownerDesignName>
+<engineerTo>
+<item key="11708E68-0BAB-3197-50A7-962984ED3E11" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B23711C5-F8CE-F541-202B-40F05B86FCE7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="multimedia" id="2CF085BA-12F9-5B7B-CC33-14128886C0F0">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-22 10:02:39 UTC</createdTime>
+<ownerDesignName>Twitter</ownerDesignName>
+<engineerTo>
+<item key="11708E68-0BAB-3197-50A7-962984ED3E11" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_publicacion1" id="EDD7FCEC-2D60-CFE5-3108-4595BD359D6E">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-22 10:11:04 UTC</createdTime>
+<generatorID>93405753-FB9A-1240-3AB2-0E793361F829</generatorID>
+<ownerDesignName>Twitter</ownerDesignName>
+<engineerTo>
+<item key="11708E68-0BAB-3197-50A7-962984ED3E11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>06C009B7-AA56-44B4-74F6-3A64D96C6CC5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="62DF7F8F-E474-0A5A-6434-341017E14649" name="Publicación PK">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-22 10:01:39 UTC</createdTime>
+<ownerDesignName>Twitter</ownerDesignName>
+<engineerTo>
+<item key="11708E68-0BAB-3197-50A7-962984ED3E11" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EB2E9F65-B5FB-5E85-731F-563152B96051</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3E4AD6BD-98B4-C519-8A83-2DCAF408FCBB" name="booths">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 17:17:57 UTC</createdTime>
+<generatorID>1A783E45-3820-B119-EC80-7160EDB05E6D</generatorID>
+<ownerDesignName>Fair of the Horse</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="A8FA2BE4-3119-C701-467A-2C8E57DB56D8">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 17:17:57 UTC</createdTime>
+<generatorID>D7CC0585-E512-A830-E785-5EDE24E2FBD9</generatorID>
+<ownerDesignName>Fair of the Horse</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>205F42A3-3355-D8FC-37CE-56B9CB6777A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name_of_the_owner" id="25CBDA28-BDE3-5989-8F83-99E376C4D020">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 17:17:57 UTC</createdTime>
+<generatorID>2D191868-BC30-0237-C5EF-3ADEFD618301</generatorID>
+<ownerDesignName>Fair of the Horse</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7001DA57-F017-92F1-BFCA-9D48D7C3A7B7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Square_Meters" id="7E806892-DF2F-1696-D62B-3C0319AB1E8C">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 17:17:57 UTC</createdTime>
+<generatorID>4467034B-A87A-1475-E4BA-71C07BF86819</generatorID>
+<ownerDesignName>Fair of the Horse</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<domain>CFBEE683-7D5E-0B63-A0B3-3134ADE1FBF8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Number_of_Members" id="52EF5C16-0E37-7910-7E06-D22ABC38DF9A">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 17:17:57 UTC</createdTime>
+<generatorID>AB1C1E5C-6A63-4C9F-2666-72B589411E1E</generatorID>
+<ownerDesignName>Fair of the Horse</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E43D4041-A705-BDE1-B4D0-FEA43932D88B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="booths_ID" id="F13C82D6-1FD6-88EE-652C-A0E87056641F">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 17:17:57 UTC</createdTime>
+<generatorID>6EA65D37-C076-B49E-E72A-BEBBC29472BC</generatorID>
+<ownerDesignName>Fair of the Horse</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>205F42A3-3355-D8FC-37CE-56B9CB6777A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2DFEE48B-A6A4-DFDA-B801-35282E856EA0" referredColumn="A8FA2BE4-3119-C701-467A-2C8E57DB56D8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6875EF01-1F9F-DCF1-1DD9-EB4B4EDCB954" name="booths_PK">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 17:17:57 UTC</createdTime>
+<generatorID>41281893-0A0C-8D39-93D5-3F2B4BA66B2B</generatorID>
+<ownerDesignName>Fair of the Horse</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8FA2BE4-3119-C701-467A-2C8E57DB56D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F38FD50B-A67B-2599-C46A-2F9195CDCE51" name="booths_booths_FK">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 17:17:57 UTC</createdTime>
+<generatorID>287A7D37-AD7C-E4E1-0872-1CFD8CD31D75</generatorID>
+<ownerDesignName>Fair of the Horse</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F13C82D6-1FD6-88EE-652C-A0E87056641F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

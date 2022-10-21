@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Hotel" id="B7781E7C-9158-FF3F-FECC-3590C099A269" version="3.5">
+<createdBy>Fernando</createdBy>
+<createdTime>2022-03-21 11:05:37 UTC</createdTime>
+<ownerDesignName>Hotel</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B7781E7C-9158-FF3F-FECC-3590C099A269</designId>
+</OSDM_Design>

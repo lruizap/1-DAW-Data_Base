@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="22CEBB3B-989D-424D-5CE2-5A76A732C65D" mainViewID="DA953F02-510A-BA81-BE06-BD89F175709B">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 16:15:00 UTC</createdTime>
+<ownerDesignName>Fair of the Horse</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

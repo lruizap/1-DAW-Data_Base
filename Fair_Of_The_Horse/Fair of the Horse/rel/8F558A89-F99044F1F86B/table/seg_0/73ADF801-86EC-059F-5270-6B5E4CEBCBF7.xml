@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="73ADF801-86EC-059F-5270-6B5E4CEBCBF7" name="streets">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 17:17:57 UTC</createdTime>
+<generatorID>5F6E5835-8BEF-6BF2-EA3F-0A9EE692F58D</generatorID>
+<ownerDesignName>Fair of the Horse</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Name_Street" id="008F47D9-5B85-43CF-30E2-78A565B7C166">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 17:17:57 UTC</createdTime>
+<generatorID>D02084E9-3E41-ED32-3C32-A17BE04ED30D</generatorID>
+<ownerDesignName>Fair of the Horse</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7001DA57-F017-92F1-BFCA-9D48D7C3A7B7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Number_Of_Booths" id="7D47943A-44B1-E020-68DB-BCAE3B4C8EB5">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 17:17:57 UTC</createdTime>
+<generatorID>F1DA8428-4F57-0CE1-E9EB-A366479A93B3</generatorID>
+<ownerDesignName>Fair of the Horse</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E43D4041-A705-BDE1-B4D0-FEA43932D88B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="booths_ID" id="32D9C94F-CADA-AF9E-98C9-96E07A7CC3C1">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 17:27:46 UTC</createdTime>
+<generatorID>9A8A8FC9-3018-FF60-7942-8808A9FCF90B</generatorID>
+<ownerDesignName>Fair of the Horse</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>205F42A3-3355-D8FC-37CE-56B9CB6777A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="841ADCEF-C884-671E-49EA-EEEC9F320AEE" referredColumn="A8FA2BE4-3119-C701-467A-2C8E57DB56D8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3AD2711A-FCDA-CE4C-73FB-543DC84D0C01" name="streets_PK">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 17:17:57 UTC</createdTime>
+<generatorID>61B065D6-C1FD-76A6-2B8F-3A95766ACDFC</generatorID>
+<ownerDesignName>Fair of the Horse</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="008F47D9-5B85-43CF-30E2-78A565B7C166"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3F8FD5F-D823-5E3F-285D-9E4B028FDEF1" name="streets_booths_FK">
+<createdBy>DraKo</createdBy>
+<createdTime>2022-05-03 17:27:46 UTC</createdTime>
+<generatorID>FD8CFD9F-B498-8DA7-71A7-8C353F4358C7</generatorID>
+<ownerDesignName>Fair of the Horse</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32D9C94F-CADA-AF9E-98C9-96E07A7CC3C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
